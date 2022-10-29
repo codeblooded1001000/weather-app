@@ -1,5 +1,5 @@
 body {
-    color: #333333;
+    color: rgb(137, 155, 243);
     font-family: arial;
     max-width: 650px;
     margin: 0 auto;
@@ -10,15 +10,59 @@ body {
     min-height: 100vh;
 }
 
+.aboutp{
+    color: white;
+}
+
+.aboutp1{
+    color: rgb(213, 207, 243);
+}
+
 .main-content{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     flex-grow: 1;
+    font-size: large;
+}
+
+.bg{
+    background-image: url('/img/weatherApp.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.helpbg{
+    background-image: url('/img/weatherApp.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.aboutbg{
+    background-image: url('/img/weatherApp.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.errorbg{
+    background-image: url('/img/weatherApp.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
 }
 
 footer{
-    color: #888888;
-    border-top: 1 px solid #eeeeee;
+    color: #0e2d6f;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-top: 1 px solid #655f5f;
     margin-top: 16px;
     padding: 16px 0;
+    text-decoration: none;
+}
+
+.profile1{
+   padding-right: 100px;
+}
+
+.profile2{
+    padding-right: 100px;
 }
 
 header{
@@ -32,10 +76,11 @@ h1{
 }
 
 header a{
-    color: #888888;
+    color: white;
     margin-right: 16px;
     text-decoration: none;
 }
+
 
 .portrait{
     width: 250px;
@@ -48,8 +93,8 @@ input{
 
 button{
     cursor: pointer;
-    border: 1 px solid #888888;
-    background: #888888;
+    border: 1 px solid hsl(223, 80%, 69%);
+    background: #6679a1;
     color: white;
     padding: 8px;
 }
