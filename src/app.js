@@ -19,6 +19,7 @@ hbs.registerPartials(partialsPath)
 // Set static directory to serve
 app.use(express.static(publicDirectoryPath))
 
+//Routes
 app.get('', (req, res) => {
     res.render('index', {
         title: 'Weather',
